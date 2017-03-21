@@ -35,3 +35,8 @@ RUN apt-get update -y && \
     apt-get update -y && \
     apt-get install cmake -y && \
     apt-get install build-essential -y
+
+####
+# Add valgrind
+RUN apt-get update -y && \
+    apt-get install valgrind -y
